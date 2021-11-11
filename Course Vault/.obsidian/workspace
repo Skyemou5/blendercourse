@@ -6,7 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 25.79136690647482,
+        "dimension": 25.791366906474824,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -21,7 +21,7 @@
       {
         "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 52.913669064748206,
+        "dimension": 52.91366906474821,
         "state": {
           "type": "markdown",
           "state": {
@@ -72,14 +72,6 @@
               "pinned": true
             },
             "group": "48eb3b51d58f6c2f"
-          },
-          {
-            "id": "ce727dab00e3811d",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
           }
         ],
         "direction": "horizontal"
@@ -127,19 +119,18 @@
             }
           },
           {
-            "id": "183f05313443f6cc",
+            "id": "5eff8a7f2dff08f7",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 439
   },
   "right": {
     "id": "4a1b52f0ae16ed1f",
@@ -200,7 +191,7 @@
             }
           },
           {
-            "id": "fd9841652560c2e2",
+            "id": "a2444126f735b7f6",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -208,7 +199,7 @@
             }
           },
           {
-            "id": "9c9fc05659f7a9bb",
+            "id": "b2557cfcb30cee0b",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -216,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -225,14 +216,14 @@
   "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
     "Lessons/Coordniate Systems.md",
+    "Sources/Scratchpixel/Orientation Matrix - scratchpixel.md",
     "Home.md",
-    "Sources/Geometry CPP anotated.md",
-    "Sources/Transforming Normals - scratchpixel.md",
-    "Sources/Orientation Matrix - scratchpixel.md",
-    "Sources/row major vs column major vector - scratchpixel.md",
-    "Sources/Spherical Coordinated - scratchpixel.md",
-    "Sources/Matrix Operations - scratchpixel.md",
-    "Sources/Transforming Points and Vectors - Scratchpixel.md",
-    "Sources/How Matricies work 2 - scratchpixel.md"
+    "Sources/Scratchpixel/Points Vectors and Normals - scratchpixel.md",
+    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
+    "Sources/Scratchpixel/Spherical Coordinated - scratchpixel.md",
+    "Sources/Scratchpixel/Matricies - scratchpixel.md",
+    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+    "Sources/Coordinate Handedness.md",
+    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md"
   ]
 }

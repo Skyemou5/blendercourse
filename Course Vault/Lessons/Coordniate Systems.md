@@ -36,4 +36,21 @@ If we really wanted to we could rotate the global space and everything on it wou
 
 ![[globalc.gif]]
 
-We can change 
+We can change the rotation of the second gizmo while first one is rotating. 
+
+![[localspace01.gif]]
+
+Just like we move around the earth just fine with out much knowledge or feedback that the earth is rotating and hurtling through space with us on it, the second arrow is just turning on it's own. The space it's parented too seems normal to it.
+
+*we'll cover parenting later*
+
+All of this is also true in 3D space.
+
+![[3Dspace.gif]]
+
+## Tangent Space
+
+
+
+## Coordinate Spaces in 3D modeling
+
