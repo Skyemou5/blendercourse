@@ -1,0 +1,39 @@
+---
+tags: math coordinate
+---
+
+# Coordinate Systems in CG
+
+We won't go into too much detail in this class and there won't be any need to do math problems or coding but understanding coordinate systems at least at a high level will help you master 3D in all it's aspects more than you realize right now.
+
+## what are coordinate systems
+
+The barebones answer for our purposes is that coordinate systems represent space.
+
+You've no doubt seen one of these before:
+
+![[xyplane_blank.png]]
+
+The graph above is a blank $XY$ plane. The numbers on the graph indicate the values of the space the graph represents. In this case $X$ and $-X$ and $Y$ and $-Y$.
+
+If you've ever used applications like photoshop or illustrator you've created media in this coordinate space.
+
+Before we move to 3D space let's use the 2D coordinate plane to illustrate a two important concepts.
+
+1. Global Space
+2. Local Space
+
+## Global Space
+
+In the context of the 2D plane above you can think of global space as the everything that the image itself represents. In other words that image is actually a representation of a 2D global coordinate space (At least for our purposes).
+*this will make more sense as we talk about local space*
+
+## Local Space
+
+Local space in the image above isn't actually represented there. So we will need a new image show how it works. But first we need to talk about orientation.
+
+If we really wanted to we could rotate the global space and everything on it would move with it. That would be sort of like rotating or moving the earth. Your position on the earth doesn't change but the earth itself is changing.
+
+![[globalc.gif]]
+
+We can change 

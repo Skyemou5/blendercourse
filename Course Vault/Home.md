@@ -29,9 +29,9 @@ Some of these things include:
 	- Research
 	- Simulation
 	- general art
-- understanding coordinate spaces 
-	-  global 
-	-  local
+- understanding [[Coordniate Systems]]
+	-  global [[Coordniate Systems#Global Space]]
+	-  local [[Coordniate Systems#Local Space]]
 	-  tangent
 - Understanding Geometry under the hood
 	- applied mathematics

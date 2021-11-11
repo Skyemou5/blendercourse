@@ -6,13 +6,83 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
+        "dimension": 25.79136690647482,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Home.md",
             "mode": "source"
+          },
+          "pinned": true
+        },
+        "group": "48eb3b51d58f6c2f"
+      },
+      {
+        "id": "c2ec64d8fd4c6c2b",
+        "type": "leaf",
+        "dimension": 52.913669064748206,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Lessons/Coordniate Systems.md",
+            "mode": "source"
           }
         }
+      },
+      {
+        "id": "03c05aaa1bc49996",
+        "type": "split",
+        "dimension": 21.294964028776977,
+        "children": [
+          {
+            "id": "3c8cdf708a2f60ec",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Home.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8360386601669938,
+                  "close": false
+                }
+              },
+              "pinned": true
+            },
+            "group": "48eb3b51d58f6c2f"
+          },
+          {
+            "id": "ce727dab00e3811d",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -47,8 +117,25 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "daf9ed5881bf795a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "183f05313443f6cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -68,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Lessons/Coordniate Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,16 +165,74 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e25345436c517971",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lessons/Coordniate Systems.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0c58168dbb148c0c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "69751bbf9ca27121",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lessons/Coordniate Systems.md"
+              }
+            }
+          },
+          {
+            "id": "fd9841652560c2e2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9c9fc05659f7a9bb",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "2b3e344d2f4b7f0d",
+  "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Home.md"
+    "Lessons/Coordniate Systems.md",
+    "Home.md",
+    "Sources/Geometry CPP anotated.md",
+    "Sources/Transforming Normals - scratchpixel.md",
+    "Sources/Orientation Matrix - scratchpixel.md",
+    "Sources/row major vs column major vector - scratchpixel.md",
+    "Sources/Spherical Coordinated - scratchpixel.md",
+    "Sources/Matrix Operations - scratchpixel.md",
+    "Sources/Transforming Points and Vectors - Scratchpixel.md",
+    "Sources/How Matricies work 2 - scratchpixel.md"
   ]
 }

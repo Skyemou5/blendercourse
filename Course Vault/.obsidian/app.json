@@ -1,1 +1,9 @@
-{}
+{
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true
+}
