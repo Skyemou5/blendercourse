@@ -24,8 +24,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Coordniate Systems.md",
-            "mode": "preview"
+            "file": "Lessons/Blender Navigation.md",
+            "mode": "source"
           }
         }
       },
@@ -111,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lessons/Blender Navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lessons/Blender Navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Lessons/Blender Navigation.md"
+              }
             }
           },
           {
@@ -174,12 +178,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "39adb0ee5dc6dff0",
+  "active": "ffdc49352cb44116",
   "lastOpenFiles": [
-    "Home.md",
-    "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Blender Navigation.md",
+    "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Coordniate Systems.md",
+    "Home.md",
     "Sources/Scratchpixel/Scratchpixel Home.md",
     "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
     "Sources/Scratchpixel/Math operations on points and vectors - scatchpixel.md",
