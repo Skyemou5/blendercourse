@@ -50,7 +50,23 @@ All of this is also true in 3D space.
 
 ## Tangent Space
 
+We won't go into too much depth here but it's worth mentioning.
+You can think of tangent space as the coordinate space of the surface of an object. This can come in handy more than you might think. For example what if you want to align something perpendicular to the surface of another object. Or rotate one object relative to the surface of another object, like a knob for example.
+
+To understand tangent space we need to touch on what Normals are.
+
+![[tangentnormal.jpg]]
+
+As you can see the image above the blue arrow is labeled as the normal. In any good 3D application we visualize data like this, blender is no exception. 
+
+![[blendernormalvis.PNG]]
+
+To understand coordinate spaces and use of a 3D application we'll cover that here [[Coordinates and 3D modeling]]
 
 
-## Coordinate Spaces in 3D modeling
+---
+Further Reading
 
+[[Scratchpixel Home]]
+[[Coordinate Handedness]]
+[[Matricies PDF]]

@@ -6,8 +6,8 @@
   "obsidian-checklist-plugin",
   "obsidian-icons-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-code-block-enhancer",
   "obsidian-latex",
   "better-pdf-plugin",
-  "file-tree-alternative"
+  "file-tree-alternative",
+  "hotkey-helper"
 ]

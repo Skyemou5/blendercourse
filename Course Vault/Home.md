@@ -29,10 +29,10 @@ Some of these things include:
 	- Research
 	- Simulation
 	- general art
-- understanding [[Coordniate Systems]]
+- understanding [[Coordniate Systems]] [[Coordinates and 3D modeling]]
 	-  global [[Coordniate Systems#Global Space]]
 	-  local [[Coordniate Systems#Local Space]]
-	-  tangent
+	-  tangent [[Coordniate Systems#Tangent Space]]
 - Understanding Geometry under the hood
 	- applied mathematics
 		- it's *not* continuous, instead, in CG the math is **Discrete**

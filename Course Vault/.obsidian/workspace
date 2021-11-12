@@ -6,7 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 25.791366906474824,
+        "dimension": 29.00416508898145,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -15,66 +15,30 @@
             "mode": "source"
           },
           "pinned": true
-        },
-        "group": "48eb3b51d58f6c2f"
+        }
       },
       {
-        "id": "c2ec64d8fd4c6c2b",
+        "id": "ffdc49352cb44116",
         "type": "leaf",
-        "dimension": 52.91366906474821,
+        "dimension": 49.6024233244983,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Lessons/Coordniate Systems.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       },
       {
-        "id": "03c05aaa1bc49996",
-        "type": "split",
-        "dimension": 21.294964028776977,
-        "children": [
-          {
-            "id": "3c8cdf708a2f60ec",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Home.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.8360386601669938,
-                  "close": false
-                }
-              },
-              "pinned": true
-            },
-            "group": "48eb3b51d58f6c2f"
-          }
-        ],
-        "direction": "horizontal"
+        "id": "39adb0ee5dc6dff0",
+        "type": "leaf",
+        "dimension": 21.39341158652026,
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
       }
     ],
     "direction": "vertical"
@@ -126,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Coordniate Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Coordniate Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lessons/Coordniate Systems.md"
-              }
+              "state": {}
             }
           },
           {
@@ -213,17 +174,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c2ec64d8fd4c6c2b",
+  "active": "39adb0ee5dc6dff0",
   "lastOpenFiles": [
-    "Lessons/Coordniate Systems.md",
-    "Sources/Scratchpixel/Orientation Matrix - scratchpixel.md",
     "Home.md",
-    "Sources/Scratchpixel/Points Vectors and Normals - scratchpixel.md",
-    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
-    "Sources/Scratchpixel/Spherical Coordinated - scratchpixel.md",
-    "Sources/Scratchpixel/Matricies - scratchpixel.md",
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
-    "Sources/Coordinate Handedness.md",
-    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md"
+    "Lessons/Coordinates and 3D modeling.md",
+    "Lessons/Blender Navigation.md",
+    "Lessons/Coordniate Systems.md",
+    "Sources/Scratchpixel/Scratchpixel Home.md",
+    "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
+    "Sources/Scratchpixel/Math operations on points and vectors - scatchpixel.md",
+    "Sources/Scratchpixel/How Matricies work 2 - scratchpixel.md",
+    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md",
+    "Sources/Scratchpixel/Matrix Operations - scratchpixel.md"
   ]
 }

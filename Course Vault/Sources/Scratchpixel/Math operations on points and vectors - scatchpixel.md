@@ -4,7 +4,7 @@ Now that we have explained the concept of (cartesian) coordinate system (and how
 
 First let's define our C++ Vector class:
 
-```
+```cpp
 template<typename T>  
 **class** Vec3  
 {  
@@ -24,7 +24,7 @@ As we mentioned in the previous paragraph, a vector can be seen as an arrow star
 
 In mathematics, the double bar (||V||) notation indicates the lentgh of a vector. The **vector's length** is sometimes also called **norm** or **magnitude** (figure 1).
 
-```
+```cpp
 template<typename T>  
 **class** Vec3  
 {  
