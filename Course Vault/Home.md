@@ -33,8 +33,8 @@ Some of these things include:
 	-  global [[Coordniate Systems#Global Space]]
 	-  local [[Coordniate Systems#Local Space]]
 	-  tangent [[Coordniate Systems#Tangent Space]]
-- Understanding Geometry under the hood
-	- applied mathematics
+- Understanding Geometry under the hood [[What is Geometry]]
+	- applied mathematics 
 		- it's *not* continuous, instead, in CG the math is **Discrete**
 		- Types of maths
 			- linear algebra

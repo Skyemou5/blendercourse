@@ -34,7 +34,7 @@ Local space in the image above isn't actually represented there. So we will need
 
 If we really wanted to we could rotate the global space and everything on it would move with it. That would be sort of like rotating or moving the earth. Your position on the earth doesn't change but the earth itself is changing.
 
-![[globalc.gif]]
+![[ROTATE2d.gif]]
 
 We can change the rotation of the second gizmo while first one is rotating. 
 
@@ -61,7 +61,7 @@ As you can see the image above the blue arrow is labeled as the normal. In any g
 
 ![[blendernormalvis.PNG]]
 
-To understand coordinate spaces and use of a 3D application we'll cover that here [[Coordinates and 3D modeling]]
+To understand how coordinate spaces are important when working in 3D applications well look at [[Coordinates and 3D modeling]].
 
 
 ---

@@ -6,7 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 29.0798939795532,
+        "dimension": 25.791366906474824,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -15,30 +15,74 @@
             "mode": "source"
           },
           "pinned": true
-        }
+        },
+        "group": "48eb3b51d58f6c2f"
       },
       {
-        "id": "ffdc49352cb44116",
+        "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 49.943203332071185,
+        "dimension": 52.91366906474821,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+            "file": "Sources/Coordinate Handedness.md",
             "mode": "preview"
           }
         }
       },
       {
-        "id": "39adb0ee5dc6dff0",
-        "type": "leaf",
-        "dimension": 20.976902688375613,
-        "pinned": true,
-        "state": {
-          "type": "graph",
-          "state": {},
-          "pinned": true
-        }
+        "id": "03c05aaa1bc49996",
+        "type": "split",
+        "dimension": 21.294964028776977,
+        "children": [
+          {
+            "id": "3c8cdf708a2f60ec",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Home.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8360386601669938,
+                  "close": true
+                }
+              },
+              "pinned": true
+            },
+            "group": "48eb3b51d58f6c2f"
+          },
+          {
+            "id": "ce727dab00e3811d",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -83,7 +127,7 @@
             }
           },
           {
-            "id": "5eff8a7f2dff08f7",
+            "id": "183f05313443f6cc",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -95,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439
+    "width": 300
   },
   "right": {
     "id": "4a1b52f0ae16ed1f",
@@ -111,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+                "file": "Sources/Coordinate Handedness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+                "file": "Sources/Coordinate Handedness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,12 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md"
+                "file": "Sources/Coordinate Handedness.md"
               }
             }
           },
           {
-            "id": "a2444126f735b7f6",
+            "id": "fd9841652560c2e2",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -164,7 +208,7 @@
             }
           },
           {
-            "id": "b2557cfcb30cee0b",
+            "id": "9c9fc05659f7a9bb",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -172,23 +216,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ffdc49352cb44116",
+  "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+    "Sources/Coordinate Handedness.md",
+    "Home.md",
+    "Lessons/What is Geometry.md",
+    "Lessons/Coordniate Systems.md",
+    "Lessons/Coordinates and 3D modeling.md",
+    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md",
     "Sources/Scratchpixel/Geometry CPP anotated.md",
-    "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
-    "Sources/Scratchpixel/Transforming Normals - scratchpixel.md",
-    "Sources/Scratchpixel/Spherical Coordinated - scratchpixel.md",
     "Sources/Scratchpixel/Scratchpixel Home.md",
-    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
-    "Sources/Scratchpixel/Points Vectors and Normals - scratchpixel.md",
-    "Sources/Scratchpixel/Orientation Matrix - scratchpixel.md",
-    "Sources/Scratchpixel/Matrix Operations - scratchpixel.md"
+    "Sources/Coordinate Systems - scratchpixel.md",
+    "Sources/Geometry CPP anotated.md"
   ]
 }
