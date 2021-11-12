@@ -6,7 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 29.00416508898145,
+        "dimension": 29.0798939795532,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -20,19 +20,19 @@
       {
         "id": "ffdc49352cb44116",
         "type": "leaf",
-        "dimension": 49.6024233244983,
+        "dimension": 49.943203332071185,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Blender Navigation.md",
-            "mode": "source"
+            "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+            "mode": "preview"
           }
         }
       },
       {
         "id": "39adb0ee5dc6dff0",
         "type": "leaf",
-        "dimension": 21.39341158652026,
+        "dimension": 20.976902688375613,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Blender Navigation.md",
+                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Blender Navigation.md",
+                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/Blender Navigation.md"
+                "file": "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md"
               }
             }
           },
@@ -180,15 +180,15 @@
   },
   "active": "ffdc49352cb44116",
   "lastOpenFiles": [
-    "Lessons/Blender Navigation.md",
-    "Lessons/Coordinates and 3D modeling.md",
-    "Lessons/Coordniate Systems.md",
-    "Home.md",
-    "Sources/Scratchpixel/Scratchpixel Home.md",
+    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+    "Sources/Scratchpixel/Geometry CPP anotated.md",
     "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
-    "Sources/Scratchpixel/Math operations on points and vectors - scatchpixel.md",
-    "Sources/Scratchpixel/How Matricies work 2 - scratchpixel.md",
-    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md",
+    "Sources/Scratchpixel/Transforming Normals - scratchpixel.md",
+    "Sources/Scratchpixel/Spherical Coordinated - scratchpixel.md",
+    "Sources/Scratchpixel/Scratchpixel Home.md",
+    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
+    "Sources/Scratchpixel/Points Vectors and Normals - scratchpixel.md",
+    "Sources/Scratchpixel/Orientation Matrix - scratchpixel.md",
     "Sources/Scratchpixel/Matrix Operations - scratchpixel.md"
   ]
 }

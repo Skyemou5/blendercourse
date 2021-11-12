@@ -8,12 +8,12 @@ First let's define our C++ Vector class:
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-// 3 most basic ways of initializing a vector  
-Vec3() : x(T(0)), y(T(0)), z(T(0)) {}  
-Vec3(**const** T &xx) : x(xx), y(xx), z(xx) {}  
-Vec3(T xx, T yy, T zz) : x(xx), y(yy), z(zz) {}  
-T x, y, z;  
+	**public**:  
+	// 3 most basic ways of initializing a vector  
+	Vec3() : x(T(0)), y(T(0)), z(T(0)) {}  
+	Vec3(**const** T &xx) : x(xx), y(xx), z(xx) {}  
+	Vec3(T xx, T yy, T zz) : x(xx), y(yy), z(zz) {}  
+	T x, y, z;  
 };  
 ```
 ## Vector Length
@@ -28,10 +28,10 @@ In mathematics, the double bar (||V||) notation indicates the lentgh of a vector
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-...  
-// length can be a method from the class...  
-T length()  
+	**public**:  
+	...  
+	// length can be a method from the class...  
+	T length()  
 {  
 **return** sqrt(x * x + y * y + z * z);  
 }  
@@ -63,31 +63,31 @@ Note that the C++ implementation can be optimised. First we only normalize the v
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-...  
-// as a method of the class Vec3  
-Vec3<T>& normalize()  
-{  
-T len = length();  
-**if** (len > 0) {  
-T invLen = 1 / len;  
-x *= invLen, y *= invLen, z *= invLen;  
+	**public**:  
+	...  
+	// as a method of the class Vec3  
+	Vec3<T>& normalize()  
+	{  
+	T len = length();  
+	**if** (len > 0) {  
+	T invLen = 1 / len;  
+	x *= invLen, y *= invLen, z *= invLen;  
 }  
   
 **return** *this;  
 }  
 ...  
 };  
-  
-// or as a utility function  
-template<typename T>  
-void normalize(Vec3<T> &v)  
+
+	// or as a utility function  
+	template<typename T>  
+	void normalize(Vec3<T> &v)  
 {  
-T len2 = v.x * v.x + v.y * v.y + v.z * v.z;  
-// avoid division by 0  
-**if** (len2 > 0) {  
-T invLen = 1 / sqrt(len2);  
-x *= invLen, y *= invLen, z *= invLen;  
+	T len2 = v.x * v.x + v.y * v.y + v.z * v.z;  
+	// avoid division by 0  
+	**if** (len2 > 0) {  
+	T invLen = 1 / sqrt(len2);  
+	x *= invLen, y *= invLen, z *= invLen;  
 }  
 }  
 ```
@@ -120,19 +120,19 @@ It can be used in the normalize method:
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-...  
-T dot(**const** Vec3<T> &v) **const**  
+	**public**:  
+	...  
+	T dot(**const** Vec3<T> &v) **const**  
 {  
 **return** x * v.x + y * v.y + z * v.z;  
 }  
   
 Vec3<T>& normalize()  
 {  
-T len2 = dot(*this);  
-**if** (len2 > 0) {  
-T invLen = 1 / sqrt(len2);  
-x *= invLen, y *= invLen, z *= invLen;  
+	T len2 = dot(*this);  
+	**if** (len2 > 0) {  
+	T invLen = 1 / sqrt(len2);  
+	x *= invLen, y *= invLen, z *= invLen;  
 }  
   
 **return** *this;  
@@ -140,8 +140,8 @@ x *= invLen, y *= invLen, z *= invLen;
 ...  
 };  
   
-template<typename T>  
-T dot(**const** Vec3<T> &a, **const** Vec3<T> &b)  
+	template<typename T>  
+	T dot(**const** Vec3<T> &a, **const** Vec3<T> &b)  
 { **return** a.x * b.x + a.y * b.y + a.z * b.z; }  
 ```
 The dot product between two vectors is an extremely important and common operation in any 3D application because the result of this operation relates to the **cosine of the angle** between the two vectors. Figure 2 illustrates the geometric interpretation of the dot product. In this example vector A is projected in the direction of vector B.
@@ -190,27 +190,27 @@ The result of the cross product is another vector which is orthogonal to the oth
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-...  
-// as a method of the class...  
-Vec3<T> cross(**const** Vec3<T> &v) **const**  
+	**public**:  
+	...  
+	// as a method of the class...  
+	Vec3<T> cross(**const** Vec3<T> &v) **const**  
 {  
-**return** Vec3<T>(  
-y * v.z - z * v.y,  
-z * v.x - x * v.z,  
-x * v.y - y * v.x);  
-}  
-...  
+	**return** Vec3<T>(  
+	y * v.z - z * v.y,  
+	z * v.x - x * v.z,  
+	x * v.y - y * v.x);  
+	}  
+	...  
 };  
   
 // or as an utility function  
 template<typename T>  
 Vec3<T> cross(**const** Vec3<T> &a, **const** Vec3<T> &b)  
 {  
-**return** Vec3<T>(  
-a.y * b.z - a.z * b.y,  
-a.z * b.x - a.x * b.z,  
-a.x * b.y - a.y * b.x);  
+	**return** Vec3<T>(  
+	a.y * b.z - a.z * b.y,  
+	a.z * b.x - a.x * b.z,  
+	a.x * b.y - a.y * b.x);  
 }  
 ```
 If you need a mnemonic way of remembering this formula, we like to use the technique that consists of asking ourselves the question "why z?", y and z being the coordinates of vector A and B used to compute the x coordinate of the resulting vector C (because indeed "why z?" - 'why' here of course stands for the letter 'y'). More seriously, logic can easily be used to reconstruct this formula. Since you know that the result of the cross product is a vector perpendicular to the other two, you know that if A and B are the x- and y-axis of a cartesian coordinate system, the cross product of A and B should give you the z-axis that is (0,0,1). The only way you can get this result is if Cz = 1 which is only true when Cz = A.x * B.y - A.y * B.x. From there, you can deduce the other coordinates which are used to compute Cx and Cy. Finally the easiest method might just be to write the cross production operation in the following form:
@@ -248,14 +248,14 @@ Other mathematical operations on points are usually straightforward. A multiplic
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
+	**public**:  
 
-Vec3<T> operator + (**const** Vec3<T> &v) **const**  
-{ **return** Vec3<T>(x + v.x, y + v.y, z + v.z); }  
-Vec3<T> operator - (**const** Vec3<T> &v) **const**  
-{ **return** Vec3<T>(x - v.x, y - v.y, z - v.z); }  
-Vec3<T> operator * (**const** T &r) **const**  
-{ **return** Vec3<T>(x * r, y * r, z * r); }  
+	Vec3<T> operator + (**const** Vec3<T> &v) **const**  
+	{ **return** Vec3<T>(x + v.x, y + v.y, z + v.z); }  
+	Vec3<T> operator - (**const** Vec3<T> &v) **const**  
+	{ **return** Vec3<T>(x - v.x, y - v.y, z - v.z); }  
+	Vec3<T> operator * (**const** T &r) **const**  
+	{ **return** Vec3<T>(x * r, y * r, z * r); }  
 
 };  
 ```

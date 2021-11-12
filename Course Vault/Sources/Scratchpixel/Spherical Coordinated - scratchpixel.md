@@ -142,7 +142,7 @@ It is not always easy to remember this formula by heart, but it is always possib
 template<typename T>  
 Vec3<T> sphericalToCartesian(**const** T &theta, **const** T &phi)  
 {  
-**return** Vec3<T>(cos(phi) * sin(theta), sin(phi) * sin(theta), cos(theta));  
+	**return** Vec3<T>(cos(phi) * sin(theta), sin(phi) * sin(theta), cos(theta));  
 };  
 ```
 ## More Tricks with Trigonometric Functions
@@ -153,7 +153,7 @@ Now that we have explained how to convert from cartesian coordinates to spherica
 template<typename T>  
 inline T sphericalTheta(**const** Vec3<T> &v)  
 {  
-**return** acos(clamp<T>(v[2], -1, 1));  
+	**return** acos(clamp<T>(v[2], -1, 1));  
 }  
 ```
 Note that the input vector is supposed to be normalised so the vector's z-coordinates should be in the range [-1:1] but clamping this value is safer. Next we will write a function to compute ϕ. We have mentioned in this chapter before than the function atan returns a value in the range [−π:π]. We will need to remap this value in the range [0:2π].
@@ -162,8 +162,8 @@ Note that the input vector is supposed to be normalised so the vector's z-coordi
 template<typename T>  
 inline T sphericalPhi(**const** Vec3<T> &v)  
 {  
-T p = atan2(v[1], v[0]);  
-**return** (p < 0) ? p + 2 * M_PI : p;  
+	T p = atan2(v[1], v[0]);  
+	**return** (p < 0) ? p + 2 * M_PI : p;  
 }  
 ```
 It is not always necessary to compute the angle values from the cartesian coordinates. Sometimes we just want to get the values for cos(θ), sin(θ), cos(ϕ) or sin(ϕ). Computing cos(θ) is really straightforward (it is very similar to the function sphericalTheta we wrote earlier):
@@ -181,13 +181,13 @@ We can first write a function that compute sin(θ)2 and then another one to comp
 template<typename T>  
 inline T sinTheta2(**const** Vec3<T> &w)  
 {  
-**return** std::max(T(0), 1 - cosTheta(w) * cosTheta(w));  
+	**return** std::max(T(0), 1 - cosTheta(w) * cosTheta(w));  
 }  
   
 template<typename T>  
 inline T sinTheta(**const** Vec3<T> &w)  
 {  
-**return** sqrt(sinTheta2(w));  
+	**return** sqrt(sinTheta2(w));  
 }  
 ```
 
@@ -217,17 +217,17 @@ represents the length of the vector vp which is the vector v projected on the xy
 template<typename T>  
 inline T cosPhi(**const** Vec3<T> &w)  
 {  
-T sintheta = sinTheta(w);  
-**if** (sintheta == 0) **return** 1;  
-**return** clamp<T>(w[0] / sintheta, -1, 1);  
+	T sintheta = sinTheta(w);  
+	**if** (sintheta == 0) **return** 1;  
+	**return** clamp<T>(w[0] / sintheta, -1, 1);  
 }  
   
 template<typename T>  
 inline T sinPhi(**const** Vec3<T> &w)  
 {  
-T sintheta = sinTheta(w);  
-**if** (sintheta == 0) **return** 0;  
-**return** clamp<T>(w[1] / sintheta, -1, 1);  
+	T sintheta = sinTheta(w);  
+	**if** (sintheta == 0) **return** 0;  
+	**return** clamp<T>(w[1] / sintheta, -1, 1);  
 }  
 ```
 [_arrow_back_Previous Chapter](https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry/matrix-operations)

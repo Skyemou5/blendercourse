@@ -113,8 +113,8 @@ There is another potentially very important aspect to take into consideration if
 ```cpp
 **class** Matrix44  
 {  
-...  
-**float** m[4][4];  
+	...  
+	**float** m[4][4];  
 };  
 ```
 As you can see the 16 coefficients of the [4x4] matrix are stored in a two-dimensional array of floats (or doubles depending on the precision you need. Our C++ Matrix class is a template). Which means that in memory the 16 coefficients will be laid out in the following manner: c00, c01, c02, c03, c10, c11, c12, c13, c20, c21, c22, c23, c30, c31, c32, c33. In other words, they are laid out contiguously in memory. Now lets see how these coefficients are accessed in a vector-matrix multiplication where vectors are written in row-major order:
@@ -145,51 +145,51 @@ The coefficients are accessed in sequential order which also means that we make 
 template<typename T>  
 **class** Vec3  
 {  
-**public**:  
-Vec3(T xx, T yy, T zz) : x(xx), y(yy), z(zz) {}  
-T x, y, z, w;  
+	**public**:  
+	Vec3(T xx, T yy, T zz) : x(xx), y(yy), z(zz) {}  
+	T x, y, z, w;  
 };  
   
 template<typename T>  
 **class** Matrix44  
 {  
-**public**:  
-T m[4][4];  
-Vec3<T> multVecMatrix(**const** Vec3<T> &v)  
-{  
-#ifdef ROWMAJOR  
-**return** Vec3<T>(  
-v.x * m[0][0] + v.y * m[1][0] + v.z * m[2][0],  
-v.x * m[0][1] + v.y * m[1][1] + v.z * m[2][1],  
-v.x * m[0][2] + v.y * m[1][2] + v.z * m[2][2]);  
-#else  
-**return** Vec3<T>(  
-v.x * m[0][0] + v.y * m[0][1] + v.z * m[0][2],  
-v.x * m[1][0] + v.y * m[1][1] + v.z * m[1][2],  
-v.x * m[2][0] + v.y * m[2][1] + v.z * m[2][2]);  
-#endif  
+	**public**:  
+	T m[4][4];  
+	Vec3<T> multVecMatrix(**const** Vec3<T> &v)  
+	{  
+	#ifdef ROWMAJOR  
+	**return** Vec3<T>(  
+	v.x * m[0][0] + v.y * m[1][0] + v.z * m[2][0],  
+	v.x * m[0][1] + v.y * m[1][1] + v.z * m[2][1],  
+	v.x * m[0][2] + v.y * m[1][2] + v.z * m[2][2]);  
+	#else  
+	**return** Vec3<T>(  
+	v.x * m[0][0] + v.y * m[0][1] + v.z * m[0][2],  
+	v.x * m[1][0] + v.y * m[1][1] + v.z * m[1][2],  
+	v.x * m[2][0] + v.y * m[2][1] + v.z * m[2][2]);  
+	#endif  
 }  
 };  
-  
-#include <cmath>  
-#include <cstdlib>  
-#include <cstdio>  
-#include <ctime>  
-  
-#define MAX_ITER 10e8  
-  
-**int** main(**int** argc, **char** **argv)  
+
+	#include <cmath>  
+	#include <cstdlib>  
+	#include <cstdio>  
+	#include <ctime>  
+
+	#define MAX_ITER 10e8  
+
+	**int** main(**int** argc, **char** **argv)  
 {  
-clock_t start = clock();  
-Vec3<float> v(1, 2, 3);  
-Matrix44<float> M;  
-**float** *tmp = &M.m[0][0];  
-**for** (**int** i = 0; i < 16; i++) *(tmp + i) = drand48();  
-**for** (**int** i = 0; i < MAX_ITER; ++i) {  
-Vec3<float> vt = M.multVecMatrix(v);  
+	clock_t start = clock();  
+	Vec3<float> v(1, 2, 3);  
+	Matrix44<float> M;  
+	**float** *tmp = &M.m[0][0];  
+	**for** (**int** i = 0; i < 16; i++) *(tmp + i) = drand48();  
+	**for** (**int** i = 0; i < MAX_ITER; ++i) {  
+	Vec3<float> vt = M.multVecMatrix(v);  
 }  
-fprintf(stderr, "Clock time %f\n", (clock() - start) / float(CLOCKS_PER_SEC));  
-**return** 0;  
+	fprintf(stderr, "Clock time %f\n", (clock() - start) / float(CLOCKS_PER_SEC));  
+	**return** 0;  
 }  
 ```
 
@@ -347,16 +347,17 @@ AXz, AYz, AZz, Tz,
 Again, that doesn't give you a particular indication of which "mathematical" convention you use. You are just storing 16 coefficients in memory in different ways and that's perfectly fine as long as you know what that way is, so that you can access them appropriately later on. Now keep in mind that a vector multiplied by a matrix should give you the same vector whether you use a row- or column- mathematical notation. Thus what's important really is that you multiply the (x,y,z) coordinates of your vector by the right coefficients from the matrix, which requires the knowledge of how "you" have decided to store the matrix coefficient in memory:
 
 ```cpp
-Vector3 vecMatMult (  
-Vector3 v,  
-**float** AXx, **float** AXy, **float** AXz, **float** Tx,  
-**float** AYx, **float** AYy, **float** AYz, **float** Ty,  
-**float** AZz, **float** AZy, **float** AZz, **float** Tz)  
+Vector3 vecMatMult (
+	Vector3 v,  
+	**float** AXx, **float** AXy, **float** AXz, **float** Tx,  
+	**float** AYx, **float** AYy, **float** AYz, **float** Ty,  
+	**float** AZz, **float** AZy, **float** AZz, **float** Tz
+)  
 {  
-**return** Vector3(  
-v.x * AXx + v.y * AYx + v.z * AZx + Tx,  
-v.x * AXy + v.y * AYy + v.z * AZy + Ty,  
-v.x * AXz + v.y * AZz + v.z * AZz + Tz  
+	**return** Vector3(  
+	v.x * AXx + v.y * AYx + v.z * AZx + Tx,  
+	v.x * AXy + v.y * AYy + v.z * AZy + Ty,  
+	v.x * AXz + v.y * AZz + v.z * AZz + Tz  
 }  
 ```
 We wrote this function to underline the fact that no matter which convention you use, the resulting of the vector * matrix multiplication is just a multiplication and an addition between the vector's input coordinates and the coordinate system's axis coordinates AX, AY and AZ (regardless of the notation you use, and regardless of the way you store them in memory). If you use:
@@ -364,10 +365,11 @@ We wrote this function to underline the fact that no matter which convention you
 
 ```cpp
 **float** m[16] = {  
-AXx, AXy, AXz, 0,  
-AYx, AYy, AYz, 0,  
-AZx, AZy, AZz, 0,  
-Tx, Ty, Tz, 1};  
+	AXx, AXy, AXz, 0,  
+	AYx, AYy, AYz, 0,  
+	AZx, AZy, AZz, 0,  
+	Tx, Ty, Tz, 1
+};  
 ```
 You need to call:
 
@@ -377,10 +379,11 @@ vecMatMult(v, m[0], m[1], m[2], m[12], m[4], m[5], m[6], m[13], ...
 If you use:
 ```cpp
 **float** m[16] = {  
-AXx, AYx, AZx, Tx,  
-AXy, AYy, AZy, Ty,  
-AXz, AYz, AZz, Tz,  
-0, 0, 0, 1};  
+	AXx, AYx, AZx, Tx,  
+	AXy, AYy, AZy, Ty,  
+	AXz, AYz, AZz, Tz,  
+	0, 0, 0, 1
+};  
 ```
 You need to call:
 ```cpp
