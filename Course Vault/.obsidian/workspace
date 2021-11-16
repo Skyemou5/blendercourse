@@ -6,11 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-<<<<<<< Updated upstream
-        "dimension": 25.791366906474824,
-=======
-        "dimension": 29.079893979553198,
->>>>>>> Stashed changes
+        "dimension": 26.402877697841724,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -23,50 +19,21 @@
         "group": "48eb3b51d58f6c2f"
       },
       {
-<<<<<<< Updated upstream
         "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 52.91366906474821,
+        "dimension": 52.37410071942447,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/Coordinate Handedness.md",
+            "file": "Lessons/Coordinates and 3D modeling.md",
             "mode": "preview"
-=======
-        "id": "84711a4d683235e8",
-        "type": "split",
-        "dimension": 49.943203332071185,
-        "children": [
-          {
-            "id": "ffdc49352cb44116",
-            "type": "leaf",
-            "dimension": 81.4787701317716,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md",
-                "mode": "preview"
-              }
-            }
-          },
-          {
-            "id": "1cc35dc4b59311ff",
-            "type": "leaf",
-            "dimension": 18.521229868228403,
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
->>>>>>> Stashed changes
           }
-        ],
-        "direction": "horizontal"
+        }
       },
       {
-<<<<<<< Updated upstream
         "id": "03c05aaa1bc49996",
         "type": "split",
-        "dimension": 21.294964028776977,
+        "dimension": 21.223021582733814,
         "children": [
           {
             "id": "3c8cdf708a2f60ec",
@@ -98,7 +65,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8360386601669938,
+                  "scale": 1.7112793834805196,
                   "close": true
                 }
               },
@@ -116,17 +83,6 @@
           }
         ],
         "direction": "horizontal"
-=======
-        "id": "39adb0ee5dc6dff0",
-        "type": "leaf",
-        "dimension": 20.97690268837561,
-        "pinned": true,
-        "state": {
-          "type": "graph",
-          "state": {},
-          "pinned": true
-        }
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
@@ -178,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,11 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Sources/Coordinate Handedness.md",
-=======
                 "file": "Lessons/Coordinates and 3D modeling.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,11 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Sources/Coordinate Handedness.md",
-=======
                 "file": "Lessons/Coordinates and 3D modeling.md",
->>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,11 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Sources/Coordinate Handedness.md"
-=======
                 "file": "Lessons/Coordinates and 3D modeling.md"
->>>>>>> Stashed changes
               }
             }
           },
@@ -279,28 +224,15 @@
   },
   "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Sources/Coordinate Handedness.md",
-    "Home.md",
-    "Lessons/What is Geometry.md",
-    "Lessons/Coordniate Systems.md",
-    "Lessons/Coordinates and 3D modeling.md",
-    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md",
-    "Sources/Scratchpixel/Geometry CPP anotated.md",
-    "Sources/Scratchpixel/Scratchpixel Home.md",
-    "Sources/Coordinate Systems - scratchpixel.md",
-    "Sources/Geometry CPP anotated.md"
-=======
     "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Blender Navigation.md",
-    "Embeded Files/pdf/Matricies_coordinates.pdf",
-    "Matricies PDF.md",
-    "Lessons/Coordniate Systems.md",
+    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
+    "Sources/Scratchpixel/Scratchpixel Home.md",
     "Home.md",
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
-    "Sources/Scratchpixel/Geometry CPP anotated.md",
     "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
-    "Sources/Scratchpixel/Transforming Normals - scratchpixel.md"
->>>>>>> Stashed changes
+    "Lessons/Coordniate Systems.md",
+    "Lessons/What is Geometry.md",
+    "Sources/Coordinate Handedness.md",
+    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md"
   ]
 }
