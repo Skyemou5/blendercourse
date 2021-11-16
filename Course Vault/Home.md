@@ -34,8 +34,8 @@ Some of these things include:
 	-  local [[Coordniate Systems#Local Space]]
 	-  tangent [[Coordniate Systems#Tangent Space]]
 - Understanding Geometry under the hood [[What is Geometry]]
-	- applied mathematics 
-		- it's *not* continuous, instead, in CG the math is **Discrete**
+	-  [[Applied Mathematics]]
+		- it's *not* continuous, instead, in CG the math is **Discrete** [[Continuous vs Discrete Mathematics]]
 		- Types of maths
 			- linear algebra
 				- geometric algebra

@@ -6,7 +6,7 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 26.402877697841724,
+        "dimension": 36.90909090909091,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -15,74 +15,19 @@
             "mode": "source"
           },
           "pinned": true
-        },
-        "group": "48eb3b51d58f6c2f"
+        }
       },
       {
         "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 52.37410071942447,
+        "dimension": 63.090909090909086,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Coordinates and 3D modeling.md",
-            "mode": "preview"
+            "file": "Lessons/Types of Mathematics in CG.md",
+            "mode": "source"
           }
         }
-      },
-      {
-        "id": "03c05aaa1bc49996",
-        "type": "split",
-        "dimension": 21.223021582733814,
-        "children": [
-          {
-            "id": "3c8cdf708a2f60ec",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Home.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.7112793834805196,
-                  "close": true
-                }
-              },
-              "pinned": true
-            },
-            "group": "48eb3b51d58f6c2f"
-          },
-          {
-            "id": "ce727dab00e3811d",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -127,7 +72,7 @@
             }
           },
           {
-            "id": "183f05313443f6cc",
+            "id": "3e7f0d9acf4e8880",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -139,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 210
   },
   "right": {
     "id": "4a1b52f0ae16ed1f",
@@ -155,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md",
+                "file": "Lessons/Types of Mathematics in CG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md",
+                "file": "Lessons/Types of Mathematics in CG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,12 +140,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md"
+                "file": "Lessons/Types of Mathematics in CG.md"
               }
             }
           },
           {
-            "id": "fd9841652560c2e2",
+            "id": "68427822700d0ed8",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -208,7 +153,7 @@
             }
           },
           {
-            "id": "9c9fc05659f7a9bb",
+            "id": "3b90e1755b522310",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -216,23 +161,24 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Lessons/Coordinates and 3D modeling.md",
-    "Lessons/Blender Navigation.md",
-    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
-    "Sources/Scratchpixel/Scratchpixel Home.md",
+    "Lessons/Types of Mathematics in CG.md",
     "Home.md",
-    "Sources/Scratchpixel/Transforming Points and Vectors - Scratchpixel.md",
+    "Lessons/Continuous vs Discrete Mathematics.md",
+    "Lessons/Applied Mathematics.md",
+    "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Coordniate Systems.md",
     "Lessons/What is Geometry.md",
-    "Sources/Coordinate Handedness.md",
-    "Sources/Scratchpixel/How Matricies Work - scratchpixel.md"
+    "Lessons/Blender Navigation.md",
+    "Sources/Scratchpixel/row major vs column major vector - scratchpixel.md",
+    "Sources/Scratchpixel/Scratchpixel Home.md"
   ]
 }
