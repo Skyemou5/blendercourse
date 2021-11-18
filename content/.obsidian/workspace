@@ -20,11 +20,11 @@
       {
         "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 63.090909090909086,
+        "dimension": 63.09090909090909,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Types of Mathematics in CG.md",
+            "file": "Lessons/Applied Mathematics.md",
             "mode": "source"
           }
         }
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Types of Mathematics in CG.md",
+                "file": "Lessons/Applied Mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Types of Mathematics in CG.md",
+                "file": "Lessons/Applied Mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/Types of Mathematics in CG.md"
+                "file": "Lessons/Applied Mathematics.md"
               }
             }
           },
@@ -170,10 +169,10 @@
   },
   "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Lessons/Types of Mathematics in CG.md",
+    "Lessons/Applied Mathematics.md",
     "Home.md",
     "Lessons/Continuous vs Discrete Mathematics.md",
-    "Lessons/Applied Mathematics.md",
+    "Lessons/Types of Mathematics in CG.md",
     "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Coordniate Systems.md",
     "Lessons/What is Geometry.md",
