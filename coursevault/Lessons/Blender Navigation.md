@@ -1,8 +1,8 @@
 ---
-title: "{{title}}"
+title: "Blender Navigation"
 ---
 
 
-# Blender Navigation
+
 
 

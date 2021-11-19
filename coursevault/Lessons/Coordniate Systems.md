@@ -1,9 +1,8 @@
 ---
 tags: math coordinate
-title: "{{title}}"
+title: "Coordinate Systems in CG"
 ---
 
-# Coordinate Systems in CG
 
 We won't go into too much detail in this class and there won't be any need to do math problems or coding but understanding coordinate systems at least at a high level will help you master 3D in all it's aspects more than you realize right now.
 

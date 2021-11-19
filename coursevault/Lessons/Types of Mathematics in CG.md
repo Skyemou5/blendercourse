@@ -1,8 +1,8 @@
 ---
 tags: math
-title: "{{title}}"
+title: "Types of Mathematics in CG"
 ---
 
-# Types of Mathematics in CG
+
 
 There are many types of mathematics in CG. 

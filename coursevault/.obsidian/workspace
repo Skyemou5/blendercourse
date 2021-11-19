@@ -6,21 +6,18 @@
       {
         "id": "2b3e344d2f4b7f0d",
         "type": "leaf",
-        "dimension": 36.90909090909091,
+        "dimension": 44.20689655172414,
         "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Home.md",
-            "mode": "source"
-          },
+          "type": "empty",
+          "state": {},
           "pinned": true
         }
       },
       {
         "id": "c2ec64d8fd4c6c2b",
         "type": "leaf",
-        "dimension": 63.09090909090909,
+        "dimension": 55.79310344827586,
         "state": {
           "type": "markdown",
           "state": {
@@ -72,15 +69,14 @@
             }
           },
           {
-            "id": "3585e925a96acf0b",
+            "id": "98a2124c1b115443",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/What is Geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/What is Geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,13 +133,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lessons/What is Geometry.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "9582ee99a33515bb",
+            "id": "5c28a05a15b8af0d",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -153,7 +145,7 @@
             }
           },
           {
-            "id": "3841ddfc6a1c2d88",
+            "id": "1861982534b46aa5",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -168,17 +160,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c2ec64d8fd4c6c2b",
+  "active": "2b3e344d2f4b7f0d",
   "lastOpenFiles": [
+    "Home.md",
     "Lessons/What is Geometry.md",
     "Lessons/Types of Mathematics in CG.md",
     "Lessons/Coordniate Systems.md",
     "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Continuous vs Discrete Mathematics.md",
-    "Lessons/Applied Mathematics.md",
     "Lessons/Blender Navigation.md",
+    "Lessons/Applied Mathematics.md",
     "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
-    "Home.md",
     "Sources/Coordinate Handedness.md"
   ]
 }

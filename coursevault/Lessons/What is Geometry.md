@@ -1,5 +1,5 @@
 ---
-title: "{{title}}"
+title: "What is geometry"
 ---
 
 # What is geometry

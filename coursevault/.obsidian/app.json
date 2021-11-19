@@ -5,5 +5,7 @@
   "showFrontmatter": true,
   "foldHeading": true,
   "foldIndent": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }

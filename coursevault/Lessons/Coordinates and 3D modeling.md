@@ -1,9 +1,8 @@
 ---
 tags: coordinates
-title: "{{title}}"
+title: "Coordinates and 3D modeling"
 ---
 
-# Coordinates and 3D modeling
 
 You might be thinking something like "ok cool, this is all a little advanced for an intro course". So let me explain. When you are working in CG, whether you like it or not you are working within these coordinate spaces.
 
