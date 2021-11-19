@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Coordinates and 3D modeling.md",
+            "file": "Lessons/What is Geometry.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md",
+                "file": "Lessons/What is Geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md",
+                "file": "Lessons/What is Geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/Coordinates and 3D modeling.md"
+                "file": "Lessons/What is Geometry.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Lessons/Coordinates and 3D modeling.md",
-    "Lessons/Continuous vs Discrete Mathematics.md",
-    "Lessons/Blender Navigation.md",
-    "Lessons/Applied Mathematics.md",
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
-    "Home.md",
-    "Sources/Coordinate Handedness.md",
     "Lessons/What is Geometry.md",
     "Lessons/Types of Mathematics in CG.md",
-    "Lessons/Coordniate Systems.md"
+    "Lessons/Coordniate Systems.md",
+    "Lessons/Coordinates and 3D modeling.md",
+    "Lessons/Continuous vs Discrete Mathematics.md",
+    "Lessons/Applied Mathematics.md",
+    "Lessons/Blender Navigation.md",
+    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+    "Home.md",
+    "Sources/Coordinate Handedness.md"
   ]
 }

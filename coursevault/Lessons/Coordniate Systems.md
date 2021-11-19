@@ -13,7 +13,7 @@ The barebones answer for our purposes is that coordinate systems represent space
 
 You've no doubt seen one of these before:
 
-![xyplane_blank.png](xyplane_blank.png)
+![[xyplane_blank.png]]
 
 The graph above is a blank $XY$ plane. The numbers on the graph indicate the values of the space the graph represents. In this case $X$ and $-X$ and $Y$ and $-Y$.
 
@@ -35,11 +35,11 @@ Local space in the image above isn't actually represented there. So we will need
 
 If we really wanted to we could rotate the global space and everything on it would move with it. That would be sort of like rotating or moving the earth. Your position on the earth doesn't change but the earth itself is changing.
 
-![ROTATE2d.gif](ROTATE2d.gif)
+![[ROTATE2d.gif]]
 
 We can change the rotation of the second gizmo while first one is rotating. 
 
-![localspace01.gif](localspace01.gif)
+![[localspace01.gif]]
 
 Just like we move around the earth just fine with out much knowledge or feedback that the earth is rotating and hurtling through space with us on it, the second arrow is just turning on it's own. The space it's parented too seems normal to it.
 
@@ -47,7 +47,7 @@ Just like we move around the earth just fine with out much knowledge or feedback
 
 All of this is also true in 3D space.
 
-![3Dspace.gif](3Dspace.gif)
+![[3Dspace.gif]]
 
 ## Tangent Space
 
@@ -56,18 +56,18 @@ You can think of tangent space as the coordinate space of the surface of an obje
 
 To understand tangent space we need to touch on what Normals are.
 
-![tangentnormal.jpg](tangentnormal.jpg)
+![[tangentnormal.jpg]]
 
 As you can see the image above the blue arrow is labeled as the normal. In any good 3D application we visualize data like this, blender is no exception. 
 
-![blendernormalvis.PNG](blendernormalvis.PNG)
+![[blendernormalvis.PNG]]
 
-To understand how coordinate spaces are important when working in 3D applications well look at [Coordinates and 3D modeling](Coordinates%20and%203D%20modeling.md).
+To understand how coordinate spaces are important when working in 3D applications well look at [[Coordinates and 3D modeling]].
 
 
 ---
 Further Reading
 
-[Scratchpixel Home](Scratchpixel%20Home.md)
-[Coordinate Handedness](Coordinate%20Handedness.md)
-[Matricies PDF](Matricies%20PDF.md)
+[[Scratchpixel Home]]
+[[Coordinate Handedness]]
+[[Matricies PDF]]
