@@ -29,13 +29,13 @@ Some of these things include:
 	- Research
 	- Simulation
 	- general art
-- understanding [[Coordniate Systems]] [[Coordinates and 3D modeling]]
-	-  global [[Coordniate Systems#Global Space]]
-	-  local [[Coordniate Systems#Local Space]]
-	-  tangent [[Coordniate Systems#Tangent Space]]
-- Understanding Geometry under the hood [[What is Geometry]]
-	-  [[Applied Mathematics]]
-		- it's *not* continuous, instead, in CG the math is **Discrete** [[Continuous vs Discrete Mathematics]]
+- understanding [Coordniate Systems](Coordniate%20Systems.md) [Coordinates and 3D modeling](Coordinates%20and%203D%20modeling.md)
+	-  global [Coordniate Systems#Global Space](Coordniate%20Systems#Global%20Space.md)
+	-  local [Coordniate Systems#Local Space](Coordniate%20Systems#Local%20Space.md)
+	-  tangent [Coordniate Systems#Tangent Space](Coordniate%20Systems#Tangent%20Space.md)
+- Understanding Geometry under the hood [What is Geometry](What%20is%20Geometry.md)
+	-  [Applied Mathematics](Applied%20Mathematics.md)
+		- it's *not* continuous, instead, in CG the math is **Discrete** [Continuous vs Discrete Mathematics](Continuous%20vs%20Discrete%20Mathematics.md)
 		- Types of maths
 			- linear algebra
 				- geometric algebra

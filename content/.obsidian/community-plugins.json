@@ -9,5 +9,7 @@
   "obsidian-latex",
   "better-pdf-plugin",
   "file-tree-alternative",
-  "hotkey-helper"
+  "hotkey-helper",
+  "wikilinks-to-mdlinks-obsidian",
+  "obsidian-code-block-enhancer"
 ]
