@@ -1,6 +1,6 @@
 ---
 tags: coordinates
-
+title: "{{title}}"
 ---
 
 # Coordinates and 3D modeling

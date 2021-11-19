@@ -1,3 +1,7 @@
+---
+title: "{{title}}"
+---
+
 # Matricies
 
 Before we explain why matrices are interesting, let's start by saying that rendering an image by keeping all the 3D objects and the camera at the origin would be quite limited. In essence, matrices play an essential role in moving objects, light and cameras around in the scene so that you can compose your image the way you want. Because our basic renderer wouldn't produce very exciting images if we were to ignore them all together. You will realise as you develop your own 3D renderer, that you won't be able to ignore them very long. So let's study them without any more delay.

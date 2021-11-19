@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+
+# Spherical Coordinates
+
 Beside points, vector, normals and matrices the last useful technique from linear algebra we will need to render images is to express vectors in terms of spherical coordinates. We could certainly render images wihout using them, but you will see that using them simplifies many problems especially when it comes to shading. This chapter is also a good opportunity to review trigonometric functions.
 
 ## Trigonometric Functions

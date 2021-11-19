@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+
+# Orientation Matrix
+
 ## Creating on Orientation Matrix or Local Coordinate System
 
 In this chapter, we will use what we have learned so far about coordinate systems and what they represent to build a local coordinate system (or frame) from a vector which can also be a normal. This technique is often used in the rendering pipeline as a way of converting point and vectors which are defined in one coordinate system to another. The idea is to let the normal at that point to become one of the axis of that local coordinate system (often aligned with the up vector, and let the tangent and bi-tangent of that point to become the other two orthogonal axes of that local frame.

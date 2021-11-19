@@ -1,6 +1,6 @@
 ---
 tags: blender
-
+title: "Course Plan"
 ---
 
 # Blender Course

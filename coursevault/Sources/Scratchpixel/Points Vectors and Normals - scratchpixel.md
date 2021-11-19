@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+
+# Points vectors normals
+
 _Keywords: vector, point, matrix, normal, transformation, Cartesian coordinate system, Cartesian coordinates, spherical coordinates, coordinate system._
 
 "Geometry, is a branch of mathematics concerned with questions of shape, size, relative position of figures, and the properties of space."

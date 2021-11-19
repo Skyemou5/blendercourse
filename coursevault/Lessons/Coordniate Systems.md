@@ -1,5 +1,6 @@
 ---
 tags: math coordinate
+title: "{{title}}"
 ---
 
 # Coordinate Systems in CG

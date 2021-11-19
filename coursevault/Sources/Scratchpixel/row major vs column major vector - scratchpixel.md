@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+
+# matrix math
+
 Earlier in this lesson, we have explained that vectors (or points) can be written down as [1x3] matrices (one row, three columns). Note however that we could have also written them down as [3x1] matrices (three rows, one column). Technically, these two ways of expressing points and vectors as matrices are perfectly valid and choosing one mode or the other is just a matter of convention.
 
 Vector written as [1x3] matrix:$$V=\begin{bmatrix}x & y & z\end{bmatrix}$$

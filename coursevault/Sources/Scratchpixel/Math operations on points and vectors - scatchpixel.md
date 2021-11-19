@@ -1,3 +1,8 @@
+---
+title: "{{title}}"
+---
+# Math operations on geo
+
 Now that we have explained the concept of (cartesian) coordinate system (and how points' and vectors' coordinates relate to coordinate systems), we can look at some of the most common operations which can be performed on points and vectors. This should cover the most common functions you will find in any 3D application and renderer.
 
 ## Vector Class in C++

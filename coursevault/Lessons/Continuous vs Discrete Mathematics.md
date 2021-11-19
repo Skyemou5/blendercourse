@@ -1,5 +1,6 @@
 ---
 tags: math
+title: "{{title}}"
 ---
 
 # Continuous vs Discrete Mathematics

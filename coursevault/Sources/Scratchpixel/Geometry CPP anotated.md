@@ -1,3 +1,7 @@
+---
+title: "{{title}}"
+---
+
 This program illustrates how the concept of vector and matrix can be implemented in C++. This is a light version of the implementation. It contains the most essential methods to manipulate vectors and matrices. It should be enough for most projects. Vectors and matrices are really the alphabet as we said in the lesson of any graphics application. It's really important you feel confortable with these techniques especially with the concepts of normalizing vectors, computing their length, computing the dot and cross products of two vectors, and the point- and vector-matrix multiplication (and knowing the difference between the two).
 
 Instructions to compile this program:  

@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+
+# Transforming Points
+
 ## Transforming Points
 
 We have introduced almost all we need to know to now write the code that will transform points using matrices. However even though translation seems to be the easiest linear operator that can be applied to point, we haven't mentioned it often in the previous chapter. Because to get the translation working with the theory of matrix multiplication, we need to make a change to the point structure that might confuse you slightly.

@@ -1,5 +1,6 @@
 ---
 tags: math
+title: "{{title}}"
 ---
 
 # Types of Mathematics in CG

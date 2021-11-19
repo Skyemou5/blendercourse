@@ -1,3 +1,7 @@
+---
+title: "{{title}}"
+---
+
 ### References:
 
 1.  Andy Johnson's CS 488 Course Notes, Lecture 5

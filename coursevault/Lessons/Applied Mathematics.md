@@ -1,5 +1,6 @@
 ---
 tags: math
+title: "{{title}}"
 ---
 
 # Applied Mathematics

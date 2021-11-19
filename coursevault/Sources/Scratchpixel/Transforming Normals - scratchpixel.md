@@ -1,3 +1,9 @@
+---
+title: "{{title}}"
+---
+# Normals
+
+
 ## What is a normal?
 
 ![](https://www.scratchapixel.com/images/upload/geometry/normal.png?)

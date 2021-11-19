@@ -1,3 +1,8 @@
+---
+title: "{{title}}"
+---
+# Matrices 1
+
 ## Conventions. A Word of Warning!
 
 You may be surprised to find that the information we give on this page is different from what you find in other books or on the internet. The information is in fact the same but the order or the sign of the matrix coefficients may be different. This is because different authors/programs, use different conventions. Try to follow the logic of this lesson without paying too much attention to what other documents might say, and read the next chapter which will explain exactly how different conventions change the way we present them on paper and implement them in a program.
