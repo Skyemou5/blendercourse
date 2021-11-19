@@ -6,7 +6,7 @@ title: "{{title}}"
 # Continuous vs Discrete Mathematics
 
 One of the difficult things in programming and cg when dealing with mathematics is translating things from math papers to something useful. Perhaps you want to translate a math paper discussing spirographs into your 3D package as a tool? To do this you must be able to read the paper, understand the math, and translate that into some form of code or process that your 3D package can understand.
-[Entagma](https://entagma.com/) have a useful chat about math papers and CG that I suggest watching.
+[https://entagma.com/](https://entagma.com/.md) have a useful chat about math papers and CG that I suggest watching.
 One of the big things I got from their chat is the difference between infinite and discrete mathematics. 
 
 

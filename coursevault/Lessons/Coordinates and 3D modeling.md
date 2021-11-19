@@ -11,7 +11,7 @@ You can try this on your own file or use the file provided to experiment with th
 
 -github link
 
-If you haven't yet, learn [Blender Navigation](Blender%20Navigation.md).
+If you haven't yet, learn [[Blender Navigation]].
 
 Select the gizmo object press **G** then **Z** then drag the mouse upward and the gizmo will move upward along the z axis.
 

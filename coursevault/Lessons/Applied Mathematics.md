@@ -13,7 +13,7 @@ If you are rigging it might be very difficult to fix and build complex rigs with
 
 ## Start Here
 
-- [Continuous vs Discrete Mathematics](Continuous%20vs%20Discrete%20Mathematics.md)
+- [[Continuous vs Discrete Mathematics]]
 - Linear algebra
 - geometric algebra
 - calculus

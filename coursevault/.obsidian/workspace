@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sources/Coordinate Handedness.md",
+            "file": "Lessons/Coordinates and 3D modeling.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Lessons/Coordinates and 3D modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Lessons/Coordinates and 3D modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Lessons/Coordinates and 3D modeling.md"
               }
             }
           },
@@ -168,17 +168,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b3e344d2f4b7f0d",
+  "active": "c2ec64d8fd4c6c2b",
   "lastOpenFiles": [
-    "Home.md",
-    "Sources/Coordinate Handedness.md",
-    "Lessons/Blender Navigation.md",
-    "Lessons/Applied Mathematics.md",
-    "Lessons/What is Geometry.md",
-    "Lessons/Types of Mathematics in CG.md",
-    "Lessons/Coordniate Systems.md",
     "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Continuous vs Discrete Mathematics.md",
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md"
+    "Lessons/Blender Navigation.md",
+    "Lessons/Applied Mathematics.md",
+    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
+    "Home.md",
+    "Sources/Coordinate Handedness.md",
+    "Lessons/What is Geometry.md",
+    "Lessons/Types of Mathematics in CG.md",
+    "Lessons/Coordniate Systems.md"
   ]
 }
