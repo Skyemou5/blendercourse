@@ -29,7 +29,7 @@ Some of these things include:
 	- Research
 	- Simulation
 	- general art
-- understanding [Coordniate Systems](Coordniate%20Systems.md) [Coordinates and 3D modeling](Coordinates%20and%203D%20modeling.md)
+- understanding [[Coordniate Systems]] [[Coordinates and 3D modeling]]
 	-  global [Coordniate Systems#Global Space](Coordniate%20Systems#Global%20Space.md)
 	-  local [Coordniate Systems#Local Space](Coordniate%20Systems#Local%20Space.md)
 	-  tangent [Coordniate Systems#Tangent Space](Coordniate%20Systems#Tangent%20Space.md)

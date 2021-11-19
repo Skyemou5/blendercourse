@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lessons/Blender Navigation.md",
+            "file": "Sources/Coordinate Handedness.md",
             "mode": "source"
           }
         }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/Blender Navigation.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/Blender Navigation.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/Blender Navigation.md"
+                "file": "Home.md"
               }
             }
           },
@@ -168,8 +168,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c2ec64d8fd4c6c2b",
+  "active": "2b3e344d2f4b7f0d",
   "lastOpenFiles": [
+    "Home.md",
+    "Sources/Coordinate Handedness.md",
     "Lessons/Blender Navigation.md",
     "Lessons/Applied Mathematics.md",
     "Lessons/What is Geometry.md",
@@ -177,8 +179,6 @@
     "Lessons/Coordniate Systems.md",
     "Lessons/Coordinates and 3D modeling.md",
     "Lessons/Continuous vs Discrete Mathematics.md",
-    "Sources/Coordinate Handedness.md",
-    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md",
-    "Sources/Scratchpixel/Geometry CPP anotated.md"
+    "Sources/Scratchpixel/Coordinate Systems - scratchpixel.md"
   ]
 }
