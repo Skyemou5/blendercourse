@@ -21,3 +21,10 @@ https://www.stevenstrogatz.com/books/infinite-powers
 https://scienceblogs.com/goodmath/2007/03/01/basics-discrete-vs-continuous-1#:~:text=The%20distinction%20is%20a%20very,line%2C%20or%20the%20real%20numbers.&text=In%20discrete%20mathematics%2C%20you're,number%20of%20points%20between%20them.
 
 
+```ad-note
+
+
+Test Add note
+
+
+```

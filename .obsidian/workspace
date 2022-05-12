@@ -6,12 +6,29 @@
       {
         "id": "64bb6a13e0dbef2f",
         "type": "leaf",
+        "dimension": 63.701298701298704,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_index.md",
-            "mode": "preview"
+            "file": "test.md",
+            "mode": "source",
+            "source": false
           }
+        }
+      },
+      {
+        "id": "dd1afaa6f88973a3",
+        "type": "leaf",
+        "dimension": 36.298701298701296,
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Course Timeline/_Course Timeline.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -47,6 +64,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "6118ef3b818c22fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -68,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +101,39 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5985eed7d3bb297c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9616880a9d90140",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "528b3b43890c7e84",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test.md"
               }
             }
           }
@@ -88,6 +146,15 @@
   },
   "active": "64bb6a13e0dbef2f",
   "lastOpenFiles": [
-    "_index.md"
+    "test.md",
+    "Course Timeline/_Course Timeline.md",
+    "Course Planning.md",
+    "_index.md",
+    "Course Timeline/Course Introduction.md",
+    "Lessons/What is Geometry.md",
+    "Lessons/Types of Mathematics in CG.md",
+    "Lessons/Poly Modeling.md",
+    "Matricies PDF.md",
+    "Lessons/Applied Mathematics.md"
   ]
 }

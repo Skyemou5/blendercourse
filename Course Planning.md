@@ -20,6 +20,13 @@ In general the blender course should cover a lot of the things that aren't cover
 Some of these things include:
 
 ---
+## Lessons and assignments
+
+
+
+
+
+---
 ## Things to learn during the course
 - How CG is used
 	- Games
@@ -130,6 +137,14 @@ Some of these things include:
 			- hard surface
 			- organic
 		- modeling using modifiers
+- Geometry Nodes
+	- Houdini
+	- Proceduralism in CG
+	- Software development and procedural CG
+	- workflows
+	- data flow
+	- data types
+	- attributes
 - Animation
 	- Simple Animation
 		- object
@@ -139,7 +154,7 @@ Some of these things include:
 		- simple rig
 	- create an *animatic*
 - Surfacing
-	- Shading
+	- Shading 
 		- shader fundimentals
 			- buffers
 			- object data
@@ -295,6 +310,11 @@ Some of these things include:
 			- background
 			- character
 			- VFX
+- Tooling
+	- python scripting
+	- addon creation
+	- plugins
+	- Blender under the hood
 - A few last things
 	- audio
 		- audio reactive work
